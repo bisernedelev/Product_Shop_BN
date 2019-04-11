@@ -1,5 +1,6 @@
 package org.bn.productshop.config;
 
+import org.bn.productshop.mappings.MappingsInitializer;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,11 +13,11 @@ import javax.xml.validation.Validator;
 public class ApplicationBeanConfiguration {
     static ModelMapper mapper;
 
-   /* static {
-        mapper = new ModelMapper();
-        MappingsInitializer.initMappings(mapper);
-    }*/
+   static {
+       mapper = new ModelMapper();
+       MappingsInitializer.initMappings(mapper);
 
+   }
     @Bean
     public ModelMapper modelMapper() {
         return mapper;

@@ -8,6 +8,7 @@ public class ProductshopApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ProductshopApplication.class, args);
+        System.out.println("XOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXO");
     }
 
 }

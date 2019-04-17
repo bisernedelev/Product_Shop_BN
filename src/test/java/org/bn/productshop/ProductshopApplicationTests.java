@@ -12,5 +12,4 @@ public class ProductshopApplicationTests {
     @Test
     public void contextLoads() {
     }
-
 }
